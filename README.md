@@ -1,0 +1,9 @@
+My goal for this project was to gain experience using API's to extract data and use for further analysis; I took big inspiration from Nate (Stratascrath) to start this project. 
+
+The first step I took was to read through the YouTube API documentation to understand what kind of data I could gather. Looking through the information sparked the idea to create a project where I would gather comments from a video and figure out the sentiment behind it. Then, I could give each video a score based on positive, negative or neutral sentiment. After having an idea of what I wanted for this project to look like, it was time to begin coding and learn. 
+
+The information I decided to gather was channel name, video title, video ID (needed to extract comments), views, number of likes and comments. When running the file, it will prompt to enter the channel ID; the entire link such as "https://www.youtube.com/channel/UCrPseYLGpNygVi34QpGNqpA" can be inputed since the necessary text will be extracted using the split function. Since the append function is being phased out in future versions of Python, I needed to alter the code that Nate had presented in the video to use the concat function. 
+
+Executing the 6th cell will trigger running the empty Data Frame through the functions to collect the data. I decided to create a variable that uses the channel name when converting the Data Frame to a CSV file, to make it easier to locate and keep track of. 
+
+This completes the first half of my project, my next step is to run the comments from a video and see the sentiment values. After doing so, I will give each video a positive, negative or neutral sentiment score. This code can be used as a template to gather data using the YouTube API and may be the foundation to other future projects that come to mind!
